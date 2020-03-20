@@ -1,0 +1,44 @@
+baseurl = "https://yuanyuan229.github.io/"
+languageCode = "en-us"
+title = "Yuanyuan Ge"
+theme = "casper"
+paginate = 5
+DisqusShortname = "yyge"
+Copyright = "© Yuanyuan GE 2020"
+canonifyurls = true
+cover = "images/3.jpg"
+image = "images/3.jpg"
+
+[params]
+  description = "Data Analysis, Machine Learning, Visualization"
+  cover = "images/3.jpg"
+  image = "images/3.jpg"
+  author = "Yuanyuan Ge"
+  authorlocation = "San Francisco, USA"
+  bio= "Data Analysis, Machine Learning, Visualization"
+  logo = "images/1.png"
+  githubName = "yuanyuan229"
+  twitterName = "toin0u"
+  linkedinName = "yyge"
+  hideHUGOSupport = false
+
+[[menu.main]]
+  name = "Home"
+  weight = 100
+  identifier = "home"
+  url = "/"
+
+[[menu.main]]
+  name = "Contact"
+  weight = 0
+  identifier = "contact"
+  pre = "<br />"
+  url = "/contact"
+
+[permalinks]
+  post = "/:slug/"
+
+[sitemap]
+  ChangeFreq = ""
+  Filename = "sitemap.xml"
+  Priority = "-1"
